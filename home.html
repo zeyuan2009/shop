@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/cookieCheck.js"></script>
+    <script src="/js/dashboard.js"></script>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="prompt">
+        <div class="popup">
+            <h3 class="prompt-title" id="prompt-title">Confirm</h3>
+            <h3 class="extra-info" id="desc-text">Are you sure you want to log out now? <br>All current processes will be <span style="color: rgb(255,105,105); font-weight: 600;">terminated</span>.</h3>
+            <div class="btns">
+                <a>
+                    <h3 class="prompt-btn" id="no-btn">Cancel</h3>
+                </a>
+                <a>
+                    <h3 class="prompt-btn" id="yes-btn">Confirm</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title">Dashboard</h1>
+        <div class="main">
+            <div class="quick-actions">
+                <h2 class="sect-title">Sales & Products</h2>
+                <a>
+                    <h3 class="action-btn" id="register-order">Register New Order</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="config-order">Configure Order</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="view-order">View Recent Orders</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="add-product">Add Product</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="config-product">Configure Product</h3>
+                </a>
+            </div>
+            <div class="quick-actions">
+                <h2 class="sect-title">Data Sheets</h2>
+                <a href="https://docs.google.com/spreadsheets/d/1jLwJdXpRITxFvHeb0ZuOsZoqJfFIPsjRE5dSX20xNoE">
+                    <h3 class="action-btn">Google Sheets Data Log</h3>
+                </a>
+                <a href='https://docs.google.com/spreadsheets/d/14XbKhZx-LQ9ANr1gSMTAABS5EI3HwmqPOd5OcKrjNlo'>
+                    <h3 class="action-btn">Pricing List</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn">Sales Analytics</h3>
+                </a>
+            </div>
+            <div class="quick-actions">
+                <h2 class="sect-title">System Configurations</h2>
+                <a>
+                    <h3 class="action-btn" id="register-admin">Register New Admin</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="config-admin">Configure Admin Details</h3>
+                </a>
+                <a>
+                    <h3 class="action-btn" id="remove-admin">Remove Admin</h3>
+                </a>
+                <a>
+                    <h3 class="danger action-btn" id="wipe-data">Wipe Data</h3>
+                </a>
+            </div>
+        </div>
+        <a>
+            <h3 class="logout-btn" id="logout-btn">Logout from System</h3>
+        </a>
+        <div class="footer">
+            <h3 class="copyright">This POS system is solely created by Ze Yuan. Any means of copying, downloading or pirating the source code and distributing it to others is strictly forbidden. <br><br>Twitter: <span style="color: #0099ff">@zeyuan2009_</span></h3>
+        </div>
+    </div>
+</body>
+</html>

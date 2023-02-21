@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/js/login.js"></script>
+    <script src="/js/cookieCheck.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Login To System</h1>
+        <div class="login-panel">
+            <div class="input-id">
+                <h3 class="input-title">User ID</h3>
+                <input type="text" class="input-field" id="id-input">
+                <h4 class="error" id="id-error">User does not exist!</h4>
+            </div>
+            <div class="input-id">
+                <h3 class="input-title">Password</h3>
+                <input type="password" class="input-field" id="pass-input">
+                <h4 class="error" id="pass-error">Password is incorrect!</h4>
+            </div>
+            <div class="input-id last-input">
+                <h3 class="input-title">Personal Identification Number (PIN)</h3>
+                <input type="password" class="input-field" id="pin-input">
+                <h4 class="error" id="pin-error">PIN is incorrect!</h4>
+            </div>
+            <a>
+                <h3 class="login-btn" id="login-btn">Login</h3>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
